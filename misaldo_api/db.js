@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 //llamada al modelo definido
 const movimientoModel = require("./models/movimientos");
 //conexion con base de datos
-const sequelize = new Sequelize("movimientosdb", "root", "2012.20", {
+const sequelize = new Sequelize("namedb", "user", "password", {
   host: "localhost",
   dialect: "mysql",
 });
